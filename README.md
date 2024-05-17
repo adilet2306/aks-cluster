@@ -31,3 +31,13 @@ This guide will help you log into Azure, display your current account settings, 
 - Make sure to replace placeholders (like `"your_subscription_id"`) with actual values from your Azure account.
 
 Follow these steps to ensure your Azure CLI is configured to interact with the correct Azure resources.
+
+## Create `terraform.tfvars` file
+
+```hcl
+resource_group_name = "my-rg"
+location = "eastus"
+subnet_name = "my-subnet"
+aks_cluster_name = "my-aks-cluster"
+node_count = 1
+```

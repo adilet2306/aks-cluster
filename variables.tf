@@ -1,8 +1,8 @@
-variable "resource_group_location" {
-  type        = string
-  default     = "eastus"
-  description = "Location of the resource group."
-}
+variable "resource_group_name" {}
+variable "location" {}
+variable "subnet_name" {}
+variable "aks_cluster_name" {}
+variable "node_count" {}
 
 variable "resource_group_name_prefix" {
   type        = string
