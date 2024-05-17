@@ -41,3 +41,7 @@ subnet_name = "my-subnet"
 aks_cluster_name = "my-aks-cluster"
 node_count = 1
 ```
+
+**Run**
+`terraform init`
+`terraform apply`
