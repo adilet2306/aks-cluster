@@ -43,5 +43,6 @@ node_count = 1
 ```
 
 **Run**
-`terraform init`
-`terraform apply`
+```bash
+terraform init
+terraform apply
