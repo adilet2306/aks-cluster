@@ -50,4 +50,4 @@ terraform apply
 
 **Generate kube config**
 ```bash
-    az aks get-credentials --resource-group <resource-group-name> --name <cluster-name> 
+az aks get-credentials --resource-group <resource-group-name> --name <cluster-name> 
