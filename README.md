@@ -46,3 +46,8 @@ node_count = 1
 ```bash
 terraform init
 terraform apply
+```
+
+**Generate kube config**
+```bash
+    az aks get-credentials --resource-group <resource-group-name> --name <cluster-name> 
