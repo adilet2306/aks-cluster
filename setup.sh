@@ -15,3 +15,7 @@ tar zxf helm-v3.16.3-linux-amd64.tar.gz
 sudo mv linux-amd64/helm /usr/local/bin
 
 rm -rf helm-v3.16.3-linux-amd64.tar.gz linux-amd64 terraform_1.10.1_linux_amd64.zip
+
+echo "alias k=kubectl" >> ~/.bashrc
+alias "ta='terraform apply --auto-approve'" >> ~/.bashrc
+alias "td='terraform destroy --auto-approve'" >> ~/.bashrc
