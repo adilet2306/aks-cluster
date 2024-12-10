@@ -36,10 +36,10 @@ Follow these steps to ensure your Azure CLI is configured to interact with the c
 
 ```hcl
 resource_group_name = "my-rg"
-location = "eastus"
+location = "eastus2"
 subnet_name = "my-subnet"
 aks_cluster_name = "my-aks-cluster"
-node_count = 1
+node_count = 2
 ```
 
 **Run**
